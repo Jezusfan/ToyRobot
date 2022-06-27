@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToyRobot.Console", "ToyRobot.Console\ToyRobot.Console.csproj", "{4693CF1E-C6DB-4C3A-8B1A-7DD6C6E6FBA9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToyRobot.Interface", "ToyRobot.Interface\ToyRobot.Interface.csproj", "{B892F8ED-4EE5-4E41-A684-44BA01087749}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToyRobot.Test", "ToyRobot.Test\ToyRobot.Test.csproj", "{C55D6D4C-B742-42B7-8377-7FA8D33BCCB0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToyRobot", "ToyRobot\ToyRobot.csproj", "{4ECB8951-5C54-4D83-8E28-1882486E8779}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{3FC3E8EF-867F-4E60-B63C-9845C77B72AC}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.targets = Directory.Build.targets
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4693CF1E-C6DB-4C3A-8B1A-7DD6C6E6FBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4693CF1E-C6DB-4C3A-8B1A-7DD6C6E6FBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4693CF1E-C6DB-4C3A-8B1A-7DD6C6E6FBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4693CF1E-C6DB-4C3A-8B1A-7DD6C6E6FBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B892F8ED-4EE5-4E41-A684-44BA01087749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B892F8ED-4EE5-4E41-A684-44BA01087749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B892F8ED-4EE5-4E41-A684-44BA01087749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B892F8ED-4EE5-4E41-A684-44BA01087749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C55D6D4C-B742-42B7-8377-7FA8D33BCCB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C55D6D4C-B742-42B7-8377-7FA8D33BCCB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C55D6D4C-B742-42B7-8377-7FA8D33BCCB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C55D6D4C-B742-42B7-8377-7FA8D33BCCB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECB8951-5C54-4D83-8E28-1882486E8779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECB8951-5C54-4D83-8E28-1882486E8779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECB8951-5C54-4D83-8E28-1882486E8779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECB8951-5C54-4D83-8E28-1882486E8779}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5CF390AD-E80D-49C9-9ACC-41B45098FD19}
+	EndGlobalSection
+EndGlobal

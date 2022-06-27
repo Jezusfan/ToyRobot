@@ -1,0 +1,21 @@
+{
+  "exclude": [
+    "**/bin",
+    "**/bower_components",
+    "**/jspm_packages",
+    "**/node_modules",
+    "**/obj",
+    "**/platforms"
+  ],
+  "profiles": {
+    "ToyRobot": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development",
+        "CORECLR_PROFILER": "846F5F1C-F9AE-4B07-969E-05C26BC060D8",
+        "CORECLR_ENABLE_PROFILING": "1"
+      }
+    }
+  }
+}
