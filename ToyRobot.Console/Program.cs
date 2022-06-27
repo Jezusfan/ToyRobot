@@ -1,11 +1,10 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ToyRobot.Console;
 using ToyRobot.Core;
 using ToyRobot.Interface.Movement;
 
-namespace ToyRobot
+namespace ToyRobot.Console
 {
     public static class Program
     {
@@ -48,7 +47,9 @@ namespace ToyRobot
 
         private static void ConfigureServices(IServiceCollection services)
         {
-            services.AddHostedService<MainService>() //-- MainService is the root of the Robot process (*** Start Here ***)
+            services
+                //-- MainService is the root of the Robot process (*** Start Here ***)
+                .AddHostedService<MainService>() 
                 //-- this turns configuration sections into POCO configuration classes
                 .AddSingleton(sp => sp.GetRequiredService<IConfiguration>().GetSection(Configuration.KnownConfigKeys.Surface).Get<Configuration.SurfaceConfig>())
                 .AddLogging()

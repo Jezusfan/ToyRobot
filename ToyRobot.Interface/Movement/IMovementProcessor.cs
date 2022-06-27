@@ -2,6 +2,9 @@
 
 namespace ToyRobot.Interface.Movement
 {
+    /// <summary>
+    /// A Movement Processor evaluates if movements are valid, and performs the commands
+    /// </summary>
     public interface IMovementProcessor
     {
         /// <summary>
