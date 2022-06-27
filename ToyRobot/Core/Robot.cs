@@ -80,7 +80,7 @@ namespace ToyRobot.Core
             return string.Empty;
         }
 
-        private void LogCommand([CallerMemberName] string commandName = null!, string extendedInformation = null)
+        private void LogCommand([CallerMemberName] string commandName = null!, string extendedInformation = null!)
         {
             _logger.LogInformation($"Received command: {commandName}{extendedInformation}");
         }
