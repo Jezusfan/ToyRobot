@@ -40,7 +40,7 @@ move that would cause the robot to fall must be ignored.
 
 This project requires Visual Studio 2022 to build, which has proven to work fast & reliable, even with decade-old solutions.
 
-For implementation I chose to use .Net6 (6.0.6 to be precise), which will be the only [supported .Net and .Net Core Version by Microsoft](https://docs.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core), in year 2023+.
+For implementation I chose to use .Net6 (6.0.6 to be precise), which will be the only [supported .Net and .Net Core Version by Microsoft](https://docs.microsoft.com/en-us/lifecycle/products/microsoft-net-and-net-core), in year 2023+. But to be clear, my day-to-day work is a mix of various DotNet versions (from .Net Framework 4.x - .Net 6), which I'm perfectly comfortable with (to switch between).
 
 To Run the project, set the project called <b>ToyRobot.Console</b> as the startup-project and run it.<br>
 
